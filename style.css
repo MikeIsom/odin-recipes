@@ -1,0 +1,97 @@
+@font-face {
+    font-family: AtkinsonHyperlegible;
+    src: url(./fonts/AtkinsonHyperlegible-Regular.woff2) format('woff2'),
+         url(./fonts/AtkinsonHyperlegible-Regular.otf) format('opentype'),
+         url(./fonts/AtkinsonHyperlegible-Regular.ttf) format('truetype');
+}
+
+body {
+    background-color: blanchedalmond;
+    color: #594412;
+    font-family: AtkinsonHyperlegible;
+    margin:0;
+}
+h1 {
+    font-size: 4rem;
+    width: 100%;
+    background-color: #594412;
+    color: white;
+    margin-top: 0;
+    padding: 2rem;
+}
+h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+ol {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+li {
+    background-color: #594412;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    flex-basis: max-content;
+    border-radius: 4px;
+    max-width: 300px;
+}
+p {
+    font-size: 1.125rem;
+}
+img {
+    max-height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+.recipe-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.recipe {
+    background-color: darkslategray;
+    border-radius: 4px;
+    padding-bottom: .5rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 500px;
+    margin: 1rem
+}
+.recipe-image {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+}
+.recipe-link {
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    color:white;
+}
+.recipe-text {
+    margin: 0;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.description {
+    font-size: 1rem;
+    text-align: center;
+    width: 50%;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
